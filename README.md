@@ -33,3 +33,56 @@ in your IDE’s toolbar or open the [/iosApp](./iosApp) directory in Xcode and r
 ---
 
 Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+
+---
+
+## LinkedIn Post
+
+KMP + Compose Multiplatform, From a Native iOS + Android Perspective 📱
+
+Being a native iOS and native Android developer shapes how I evaluate cross-platform stacks. SwiftUI and Android XML/Jetpack give full platform depth, and that still matters. Native quality and control are always the benchmark. 🧭
+
+With that mindset, Kotlin Multiplatform (KMP) was the first step that felt truly practical: keep native UI, share business logic. 🔁
+
+Now with Compose Multiplatform (CMP), the story changes again—because UI can be shared too, without giving up mobile-first structure. 🧩
+
+This project used:
+
+- Kotlin Multiplatform (shared logic) ⚙️
+- Compose Multiplatform (shared UI) 🎨
+- Clean Architecture (data / domain / presentation) 🏗️
+- MVVM + StateFlow 🔄
+- Ktor + Kotlinx Serialization 🌐
+- SQLDelight (offline favorites) 💾
+- Coroutines + Flow ⛓️
+- Voyager navigation 🧭
+- Material 3 UI 🧱
+
+✅ Why native still matters  
+Native development remains the top tier for:
+
+- full platform access 🔓
+- advanced UI behaviors 🎯
+- platform-specific optimizations ⚡
+- deep ecosystem support 🌍
+
+That foundation doesn’t change. 🧱
+
+✅ What KMP + CMP adds on top  
+From a native mindset, CMP feels like shared native UI, not a web wrapper.  
+It brings real benefits:
+
+- Shared UI + logic in one Kotlin codebase 🧠
+- Consistent UX across platforms 🤝
+- Faster iteration on features and layouts 🚀
+- Less UI drift over time 📉
+- Strong architecture compatibility (Clean Architecture, MVVM, Flow, etc.) 🏛️
+
+Native iOS + Android are still the foundation and always valuable. 📲  
+KMP started by sharing business logic.  
+Now KMP + Compose Multiplatform makes it possible to share UI + logic without losing the mobile mindset. 🧭
+
+For anyone who has built native apps and wants to reduce duplication while keeping quality high, this stack is worth attention 👀
+
+🔗 Portfolio: [malindu21.github.io/devfolio](https://malindu21.github.io/devfolio/)  
+💻 Source code: [github.com/malindu21/bookmanager-cmp](https://github.com/malindu21/bookmanager-cmp)
