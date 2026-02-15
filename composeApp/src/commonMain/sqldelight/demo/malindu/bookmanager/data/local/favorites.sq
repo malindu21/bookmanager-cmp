@@ -1,0 +1,22 @@
+CREATE TABLE favorites (
+  id TEXT NOT NULL PRIMARY KEY,
+  workKey TEXT NOT NULL,
+  title TEXT NOT NULL,
+  author TEXT NOT NULL,
+  year INTEGER,
+  coverId INTEGER,
+  savedAt INTEGER NOT NULL
+);
+
+selectAll:
+SELECT * FROM favorites ORDER BY savedAt DESC;
+
+selectById:
+SELECT * FROM favorites WHERE id = ?;
+
+upsert:
+INSERT OR REPLACE INTO favorites(id, workKey, title, author, year, coverId, savedAt)
+VALUES (?, ?, ?, ?, ?, ?, ?);
+
+deleteById:
+DELETE FROM favorites WHERE id = ?;
